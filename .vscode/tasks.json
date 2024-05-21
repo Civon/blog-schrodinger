@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"workspacePath": "/home/buntu/blog/blog-schrodinger",
+			"command": "hugo server -D",
+			"problemMatcher": [],
+			"label": "Live Preview: Run Server",
+		},
+		{
+			"label": "Extract Notes",
+			"type": "shell",
+			"command": "rm -rf content/pages/ && unzip content/publicExport.zip -d content && rm content/publicExport.zip",
+		}
+	]
+}

@@ -17,14 +17,15 @@ params:
     #   url: "https://twitter.com/XXX"
     # - name: "kofi"
     #   url: "https://buymeacoffee.com/XXX"
-    # - name: "rss"
-    #   url: "https://XXX.github.io/index.xml"
+    - name: "rss"
+      url: "https://allenchan.me/index.xml"
   ShowReadingTime: true
   author: "Allen Chan"
   contact: "contact@allenchan.me"
   feedlinks: true
   copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
   mobileMenu: true
+  # enableEmoji: true
 
   #Google Analytics 4 optional
   env: #production
@@ -66,9 +67,11 @@ menu:
 permalinks:
   page:
     pages: /:slug
+    # pages: /pages/:slug
 
     # notes: /note/:slug
     # tutorials: /training/:slug/
   # section:
-  #   notes: /pages/
+  #   pages: /pages/
+    # notes: /pages/
     # tutorials: /training/

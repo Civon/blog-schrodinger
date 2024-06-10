@@ -41,7 +41,7 @@ params:
   ShowCodeCopyButtons: true
   editPost:
     URL: "https://github.com/Civon/blog-schrodinger/blob/main/content"
-    Text: "Suggest Changes" # edit text
+    Text: "✏️ Fix Typo" # edit text
     appendFilePath: true # to append file path to Edit link
   # enableEmoji: true
 
@@ -74,7 +74,7 @@ menu:
       url: /tags/
       weight: 20
     - identifier: search
-      name: Search
+      name: 🔍 Search
       url: /search/
       weight: 20
     - identifier: archive

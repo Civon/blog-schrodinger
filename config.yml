@@ -4,10 +4,19 @@ title: Allen Chan
 theme: "PaperMod"
 
 params:
-  homeInfoParams:
-    Title: Sup bruh 😎
-    Content: Sharing life hack tips and tricks here 
-
+  profileMode:
+    enabled: true
+    title: "DevOps x ☕ brewing x 🎤🎧 enthusiast" # optional default will be site title
+    subtitle: "Sharing life hack tips and tricks here "
+    imageUrl: "https://cal.com/api/avatar/4bcdd0cc-e764-4376-b2f4-c02af6c0c7f7.png"
+    imageTitle: "headshot" 
+    imageWidth: 180 
+    imageHeight: 180 
+    buttons:
+      - name: Archive
+        url: "/archives"
+      - name: Have a ☕ chat with me 
+        url: "https://cal.com/allen-q7kulv"
   socialIcons: # optional
     - name: "github"
       url: "https://github.com/Civon"
@@ -15,8 +24,6 @@ params:
       url: "https://www.linkedin.com/in/chunyao-chan"
     - name: "email"
       url: "contact@allenchan.me"
-    - name: "Book me a coffee chat!"
-      url: "https://cal.com/allen-q7kulv"
     # - name: "pgp"
     #   url: ""
     # - name: "rss"
@@ -58,9 +65,9 @@ outputs:
 
 menu:
   main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
+    - identifier: Glitches
+      name: Glitch
+      url: /categories/glitch/
       weight: 10
     - identifier: tags
       name: Tags
